@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-15T14:45:53.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="VMGEoEKsQvNqvaM6uHPD" version="12.1.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-15T14:48:58.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="sipqPyH2fOErT008UdxD" version="12.1.1" type="github" pages="1">
   <diagram id="Az74EkwLJcRTKGCIkIj8" name="Page-1">
     <mxGraphModel dx="761" dy="444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="120" y="150" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-2" value="Trust between&lt;br&gt;Participants" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;flipV=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="245" width="120" height="60" as="geometry"/>
+          <mxGeometry x="120" y="231" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-3" value="Trust in the TIP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;flipV=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="340" width="120" height="60" as="geometry"/>
+          <mxGeometry x="120" y="315" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-4" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -23,22 +23,22 @@
           <mxGeometry x="310" y="150" width="140" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-6" value="Reputation Algorithm&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; Smart Contract" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="310" y="245" width="140" height="60" as="geometry"/>
+          <mxGeometry x="310" y="231" width="140" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-7" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="276.5" as="sourcePoint"/>
-            <mxPoint x="310" y="276.5" as="targetPoint"/>
+            <mxPoint x="240" y="262.5" as="sourcePoint"/>
+            <mxPoint x="310" y="262.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-8" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="369.5" as="sourcePoint"/>
-            <mxPoint x="310" y="369.5" as="targetPoint"/>
+            <mxPoint x="240" y="344.5" as="sourcePoint"/>
+            <mxPoint x="310" y="344.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-9" value="Trust Computing&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; Blockchain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="310" y="340" width="140" height="60" as="geometry"/>
+          <mxGeometry x="310" y="315" width="140" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
