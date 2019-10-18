@@ -1,44 +1,62 @@
-<mxfile host="www.draw.io" modified="2019-10-15T14:48:58.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="sipqPyH2fOErT008UdxD" version="12.1.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-18T12:06:56.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="frZgGApIDYJtUyEs_FYA" version="12.1.3" type="github" pages="1">
   <diagram id="Az74EkwLJcRTKGCIkIj8" name="Page-1">
-    <mxGraphModel dx="761" dy="444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-1" value="Trust of TI Quality" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;flipV=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="150" width="120" height="60" as="geometry"/>
+          <mxGeometry x="79" y="150" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-2" value="Trust between&lt;br&gt;Participants" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;flipV=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="231" width="120" height="60" as="geometry"/>
+          <mxGeometry x="79" y="231" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-3" value="Trust in the TIP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;flipV=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="315" width="120" height="60" as="geometry"/>
+          <mxGeometry x="79" y="315" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-4" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="179.5" as="sourcePoint"/>
-            <mxPoint x="310" y="179.5" as="targetPoint"/>
+            <mxPoint x="199" y="179.5" as="sourcePoint"/>
+            <mxPoint x="269" y="179.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Y4UgseYf_Ed_X1QdwrZy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAAkzRFnRizqd0TFnBnn-5" target="Y4UgseYf_Ed_X1QdwrZy-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-5" value="Assessment Algorithm&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; Smart Contract" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="310" y="150" width="140" height="60" as="geometry"/>
+          <mxGeometry x="269" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y4UgseYf_Ed_X1QdwrZy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bAAkzRFnRizqd0TFnBnn-6" target="Y4UgseYf_Ed_X1QdwrZy-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-6" value="Reputation Algorithm&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; Smart Contract" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="310" y="231" width="140" height="60" as="geometry"/>
+          <mxGeometry x="269" y="231" width="140" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-7" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="262.5" as="sourcePoint"/>
-            <mxPoint x="310" y="262.5" as="targetPoint"/>
+            <mxPoint x="199" y="262.5" as="sourcePoint"/>
+            <mxPoint x="269" y="262.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-8" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="344.5" as="sourcePoint"/>
-            <mxPoint x="310" y="344.5" as="targetPoint"/>
+            <mxPoint x="199" y="344.5" as="sourcePoint"/>
+            <mxPoint x="269" y="344.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Y4UgseYf_Ed_X1QdwrZy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bAAkzRFnRizqd0TFnBnn-9" target="Y4UgseYf_Ed_X1QdwrZy-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="bAAkzRFnRizqd0TFnBnn-9" value="Trust Computing&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp; Blockchain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="310" y="315" width="140" height="60" as="geometry"/>
+          <mxGeometry x="269" y="315" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y4UgseYf_Ed_X1QdwrZy-1" value="Quality Assessment&lt;br&gt;TIQScore= f(Completeness, Freshness, Relevance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="481" y="150" width="295" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y4UgseYf_Ed_X1QdwrZy-2" value="Reputation Assessment&lt;br&gt;EigenTrust Algorithm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="482" y="231" width="295" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Y4UgseYf_Ed_X1QdwrZy-3" value="Ethereum&lt;br&gt;Inter SGX (SCONE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="483" y="315" width="295" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
