@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-18T10:53:31.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="s7HH0aLFpEXOZtBWpvZq" version="12.7.1" type="github">
+<mxfile host="www.draw.io" modified="2020-02-18T10:54:29.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="DmKA4WdLGesYJwcZZBHe" version="12.7.1" type="github">
   <diagram id="9WqTz0FLbvIk-7F3oKGg" name="Page-1">
     <mxGraphModel dx="1052" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,13 +56,13 @@
         <mxCell id="gSTD2M2dS15GA0vHVEwa-8" value="Weighting based on numbers of keywords" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="535" y="459" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gSTD2M2dS15GA0vHVEwa-26" value="&amp;nbsp; 60%" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gSTD2M2dS15GA0vHVEwa-10" target="gSTD2M2dS15GA0vHVEwa-25" edge="1">
+        <mxCell id="gSTD2M2dS15GA0vHVEwa-26" value="&amp;nbsp; 60%" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;align=left;" parent="1" source="gSTD2M2dS15GA0vHVEwa-10" target="gSTD2M2dS15GA0vHVEwa-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSTD2M2dS15GA0vHVEwa-10" value="Completeness" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="216" y="567" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gSTD2M2dS15GA0vHVEwa-27" value="40%" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gSTD2M2dS15GA0vHVEwa-11" target="gSTD2M2dS15GA0vHVEwa-25" edge="1">
+        <mxCell id="gSTD2M2dS15GA0vHVEwa-27" value="40%" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;align=right;" parent="1" source="gSTD2M2dS15GA0vHVEwa-11" target="gSTD2M2dS15GA0vHVEwa-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gSTD2M2dS15GA0vHVEwa-11" value="Freshness" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
