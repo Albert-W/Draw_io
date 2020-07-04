@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2020-07-04T10:08:33.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.58" etag="-vDqgv_vnFKr7temxwaV" version="13.3.8" type="github"><diagram id="9LM2HgzO2beTKXGPVgXP" name="Page-1">7Vnbbts4EP0aA92HLCzJ18fITtoASbGIW2z7SEu0xA0lainKlz7023dGoixRspw49bYuEMBwzCNyONcz47jnzKLte0mS8EH4lPfsvr/tOfOebU+nI3hHYFcAQ0cDgWR+AfUrYMG+0QK0SjRjPk01VkBKCK5YYoKeiGPqKQMjUoqNuW0luG8ACQmooQYCC49w2tr2N/NVWKATe1zhHygLwvJmazQtnkSk3KwFpyHxxaYGOTc9ZyaFUMWnaDujHH1n+uW24+leMUlj9ZIDX8M5f0w/f/n0cPeUfhxeZ5+i91c6GGvCM21wzx5xkOcmqLLaaT+M/s1QTzciMmBxz7mGp/1kC+8A5tYifqVEUjwb1J4pulVXhLNAn/NAYSormfAp0H/zm1kNIBEIdHl7dYcyVsSje9g8YkgEp7DmLUvZQkrgYxYtqbwlnhJyV5OxbJ4ALGlioUTHlXlc2mh1m/sqR3O6UjVPd8nOSuA7JkKU8OJMl4HZ8076vUwOqNJWvvvj1aajoFZuQt2l9N1CSRYHhuhjOWc6zza8YK+pVAyI57qolHleS66um3lhvStg14rnNLJiUN6OuxKx0rRp2Xp9SyLGkXA/UL6mKBWjpCKOm/Z344V028km1p6jgNupiKhCh/XLA2PNgJrXbWtQrDcVS1pTTX1hnSFLPiSamYO97Iq84IPmrxO4bNzJZT5bH8y4JjPlTu7MrDQhcYVhZibZkjOvFl1zyx7O7zfR86v0PY+f94QN7TI06tkO6iSFgs5M/QvR6irXia2JuhQ/ZbFPJWcxzeUSdTEpxRTJ87tPlqmSwJkn6tVgOFTEJCKQKp7oTHAhAYkFuAAYDIitAZUsqEcHx22SZcR8H69xNyFTdJHgYODMNzCSAiYFehipo38e8nPGI4P8LGfaIr+p3ea+/436LLvFfdjtaQQGpa04UB9GXL0UUoUiEDHhNxXa8Fi1515gU8pD9w9VaqcbD8mUMANLt0x9weN/DvXqqxaGn+fb+mKnFz5Jw/zOXEDsX+P4DsslF95TAd3mPa8WRjTleBDBcpFJjx7x3kR/r4A5g6rnhuV2UkjKoWbXph5nD/GkFWFjlLnD4a4Z6HTDIk6KosIxQT+xXlJRxfjhhYz792QnMnQMkJP3VK7cUEj2DcSSqpqJLGcRe2TsWOBJHTlJcVb8qwyU1YAeyNbYeE9SpQFPcE6SlC33ZhSzoSuUEtH56tsqi1fXtzMZt4eb0YHhZmh3R1/f9gi9kMQBpydeNzhwnT0yryMcYhlDY3OxftNWzu0t/QGmsQ5MWW7h3a6B+HAbOJX79QR8OE+hG3lw8X2+Zz6okEftrYE5PIfQL2icMx00XFIkFGZPIhhSJig6dOEFTp8hhw1B8RmsrWoNL9wu1UzE2B1ZnlsUsnVDU/XSROyu9XZ27syoP5eMzew4X7dxWjmw/0LVf6DQLPyuoLdop8lLnY3djLDTjrDTlVO/OsTHuQYmBXOWmPRb4Z381OgOWtFd6KG0/xbm14Z5aA0vLMzD4wPF2zBxpmFiMHaMyB/8T8mpw8SPhb49S7718MOVX8/0wYuS4Uix/YqODsvqJ4ZiCKx+p3Fu/gM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-04T10:10:03.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.58" etag="1xhvbLVwy65EculisMqr" version="13.3.8" type="github">
+  <diagram id="9LM2HgzO2beTKXGPVgXP" name="Page-1">
+    <mxGraphModel dx="830" dy="447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;NumberFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;u&gt;~ impl: NumberFactory&lt;/u&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;u&gt;~ getFactory(): NumberFactory&lt;/u&gt;&lt;br&gt;~ &lt;i&gt;parse(String): Number&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="177" y="214" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;+ public&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;~ package&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;# protected&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- private&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;underline static&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;italic abstract&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="350" width="92" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-12" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=0;" parent="1" source="YhDlRsUXTMIksN5AuTmG-8" target="YhDlRsUXTMIksN5AuTmG-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-8" value="NumberFactoryImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="192" y="387" width="160" height="52" as="geometry">
+            <mxRectangle x="192" y="387" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-11" value="+ parse(String): Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="YhDlRsUXTMIksN5AuTmG-8" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-13" value="Factory Method" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
+          <mxGeometry x="229" y="180" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-14" value="Static Factory Method" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
+          <mxGeometry x="456" y="180" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-15" value="NumberFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="414" y="214" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDlRsUXTMIksN5AuTmG-18" value="+ parse(String): Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="YhDlRsUXTMIksN5AuTmG-15" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
