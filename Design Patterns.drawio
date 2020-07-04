@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-04T10:10:03.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.58" etag="1xhvbLVwy65EculisMqr" version="13.3.8" type="github">
-  <diagram id="9LM2HgzO2beTKXGPVgXP" name="Page-1">
-    <mxGraphModel dx="830" dy="447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2020-07-04T11:55:05.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.58" etag="yodFzMSIOG06BRvU1c8s" version="13.3.8" type="github" pages="2">
+  <diagram id="9LM2HgzO2beTKXGPVgXP" name="Factory">
+    <mxGraphModel dx="830" dy="429" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,6 +32,49 @@
         </mxCell>
         <mxCell id="YhDlRsUXTMIksN5AuTmG-18" value="+ parse(String): Number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="YhDlRsUXTMIksN5AuTmG-15" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RcpOFR39_kiWJvtpJfOf" name="Bridge">
+    <mxGraphModel dx="996" dy="515" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Oiw7guekTPjz52R53B2g-0" />
+        <mxCell id="Oiw7guekTPjz52R53B2g-1" parent="Oiw7guekTPjz52R53B2g-0" />
+        <mxCell id="4gIP6GTXk0rofkSTQ-UT-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;i&gt;Car&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# engine: Engine&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Car(Engine)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;i&gt;+ drive(): void&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Oiw7guekTPjz52R53B2g-1">
+          <mxGeometry x="109" y="98" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Hw0MvrSw-Rs5jR8ZT9-1" value="extends" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="Oiw7guekTPjz52R53B2g-1" source="E5Hw0MvrSw-Rs5jR8ZT9-0" target="4gIP6GTXk0rofkSTQ-UT-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ENjM2dKt9BAPMcBnQNb5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="Oiw7guekTPjz52R53B2g-1" source="E5Hw0MvrSw-Rs5jR8ZT9-0" target="E5Hw0MvrSw-Rs5jR8ZT9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272" y="271" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5Hw0MvrSw-Rs5jR8ZT9-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;i&gt;RefinedCar&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ RefinedCar(Engine)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ drive(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;i&gt;+ getBrand(): String&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Oiw7guekTPjz52R53B2g-1">
+          <mxGeometry x="109" y="240" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Hw0MvrSw-Rs5jR8ZT9-3" value="extends" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="Oiw7guekTPjz52R53B2g-1" source="E5Hw0MvrSw-Rs5jR8ZT9-2" target="E5Hw0MvrSw-Rs5jR8ZT9-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Hw0MvrSw-Rs5jR8ZT9-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BossCar&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ BossCar(Engine)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getBrand(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Oiw7guekTPjz52R53B2g-1">
+          <mxGeometry x="109" y="393" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Hw0MvrSw-Rs5jR8ZT9-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Engine&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ start(): void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Oiw7guekTPjz52R53B2g-1">
+          <mxGeometry x="356" y="240" width="190" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="ENjM2dKt9BAPMcBnQNb5-0" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="Oiw7guekTPjz52R53B2g-1" source="E5Hw0MvrSw-Rs5jR8ZT9-5" target="E5Hw0MvrSw-Rs5jR8ZT9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Hw0MvrSw-Rs5jR8ZT9-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;HybridEngine&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ start(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Oiw7guekTPjz52R53B2g-1">
+          <mxGeometry x="371" y="373" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ENjM2dKt9BAPMcBnQNb5-3" value="……" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Oiw7guekTPjz52R53B2g-1">
+          <mxGeometry x="269" y="393" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ENjM2dKt9BAPMcBnQNb5-4" value="……" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Oiw7guekTPjz52R53B2g-1">
+          <mxGeometry x="551" y="386" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
