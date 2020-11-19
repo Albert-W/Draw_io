@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T18:23:33.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="C9lfCrdFfkaptWd-y3GE" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-19T22:49:01.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="1921BIu1Mza__peXsEsh" version="13.10.0" type="github">
   <diagram id="TTg-IWiv8Uzk7xxOlv-l" name="Page-1">
-    <mxGraphModel dx="887" dy="903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="927" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
         <mxCell id="3_fk25gFCbwwTBrFntTD-10" value="reset --soft HEAD^" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-8" target="3_fk25gFCbwwTBrFntTD-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3_fk25gFCbwwTBrFntTD-13" value="reset --hard HEAD^" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3_fk25gFCbwwTBrFntTD-8" target="3_fk25gFCbwwTBrFntTD-12" edge="1">
+        <mxCell id="3_fk25gFCbwwTBrFntTD-13" value="reset --hard HEAD^&lt;br&gt;git revert&amp;nbsp; (--no-commit) HEAD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3_fk25gFCbwwTBrFntTD-8" target="3_fk25gFCbwwTBrFntTD-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-17" value="reset --hard HEAD~10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-8" edge="1">
@@ -55,6 +55,9 @@
         </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-12" value="Old HEAD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="511" y="93" width="82" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="froKh8hoZKa_n56Nmg6r-1" value="git revert: keep the change and commit new HEAD&lt;br&gt;git reset: HEAD will move to new Place" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="319" width="364" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
