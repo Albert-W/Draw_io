@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T09:34:29.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36 Edg/87.0.664.41" etag="K70EWRnaJsMx6-g1HPGG" version="13.10.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-23T18:03:02.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36 Edg/87.0.664.41" etag="PtCL8HPJWzv2IsTMOBcR" version="13.10.1" type="github" pages="2">
   <diagram id="TTg-IWiv8Uzk7xxOlv-l" name="Page-1">
-    <mxGraphModel dx="1291" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1052" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="3_fk25gFCbwwTBrFntTD-7" value="add &amp;lt;file&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3_fk25gFCbwwTBrFntTD-2" target="3_fk25gFCbwwTBrFntTD-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3_fk25gFCbwwTBrFntTD-14" value="checkout -- &amp;lt;f&amp;gt;&lt;br&gt;restore &amp;lt;f&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-2" target="3_fk25gFCbwwTBrFntTD-1" edge="1">
+        <mxCell id="3_fk25gFCbwwTBrFntTD-14" value="checkout &amp;lt;f&amp;gt;&lt;br&gt;restore &amp;lt;f&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-2" target="3_fk25gFCbwwTBrFntTD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-18" value="rm &amp;lt;f&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-2" target="3_fk25gFCbwwTBrFntTD-6" edge="1">
@@ -45,31 +45,54 @@
             <mxPoint x="572" y="-45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tbhNzLgqW9O9N-UflDI0-4" value="checkout HEAD&lt;br&gt;merge HEAD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_fk25gFCbwwTBrFntTD-8" target="3_fk25gFCbwwTBrFntTD-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="288" />
+              <mxPoint x="228" y="288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-8" value="HEAD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="511" y="192" width="82" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="3_fk25gFCbwwTBrFntTD-16" value="reset --hard &amp;lt;CId&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-12" target="3_fk25gFCbwwTBrFntTD-8" edge="1">
+        <mxCell id="3_fk25gFCbwwTBrFntTD-16" value="reset --hard &amp;lt;CId&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-12" target="3_fk25gFCbwwTBrFntTD-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="643" y="130" />
-              <mxPoint x="643" y="229" />
+              <mxPoint x="593" y="131" />
+              <mxPoint x="686" y="131" />
+              <mxPoint x="686" y="204" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-12" value="Old HEAD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="511" y="93" width="82" height="49" as="geometry" />
+          <mxGeometry x="511" y="91" width="82" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="froKh8hoZKa_n56Nmg6r-1" value="git revert: keep the history and commit new HEAD , only one step&lt;br&gt;git reset: Move ref of HEAD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="319" width="364" height="20" as="geometry" />
+        <mxCell id="froKh8hoZKa_n56Nmg6r-1" value="git revert: keep the history and commit new HEAD , only one step&lt;br&gt;git reset: Move ref of HEAD&lt;br&gt;&lt;br&gt;git checkout --patch B f : patch current f with f from head of B&lt;br&gt;git checkout dev: doesn&#39;t change the unstaged or staged" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="86" y="360" width="364" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QmlgqqIAHQfQFDyx2e3k-1" value="Old staged" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="91" width="82" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhNzLgqW9O9N-UflDI0-2" value="git fetch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tbhNzLgqW9O9N-UflDI0-1" target="3_fk25gFCbwwTBrFntTD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbhNzLgqW9O9N-UflDI0-3" value="git pull" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbhNzLgqW9O9N-UflDI0-1" target="3_fk25gFCbwwTBrFntTD-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="799" y="307" />
+              <mxPoint x="228" y="307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbhNzLgqW9O9N-UflDI0-1" value="remote&lt;br&gt;git remote -v" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="769" y="186.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="talDRqXvdHZKrTljbx_k" name="Page-2">
-    <mxGraphModel dx="1291" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1052" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gjxDkcOSJeGZVXvRsHxz-0" />
         <mxCell id="gjxDkcOSJeGZVXvRsHxz-1" parent="gjxDkcOSJeGZVXvRsHxz-0" />
@@ -126,7 +149,7 @@
             <mxPoint x="572" y="-45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p7Mnduj1voCGjxb01B5t-1" value="reset HEAD^" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gjxDkcOSJeGZVXvRsHxz-1" source="X-xBrTbUivX3O_vm4Tdt-13" target="X-xBrTbUivX3O_vm4Tdt-20">
+        <mxCell id="p7Mnduj1voCGjxb01B5t-1" value="reset HEAD^" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="gjxDkcOSJeGZVXvRsHxz-1" source="X-xBrTbUivX3O_vm4Tdt-13" target="X-xBrTbUivX3O_vm4Tdt-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X-xBrTbUivX3O_vm4Tdt-13" value="HEAD" style="rounded=0;whiteSpace=wrap;html=1;" parent="gjxDkcOSJeGZVXvRsHxz-1" vertex="1">
@@ -145,7 +168,7 @@
         <mxCell id="X-xBrTbUivX3O_vm4Tdt-15" value="Old HEAD" style="rounded=0;whiteSpace=wrap;html=1;" parent="gjxDkcOSJeGZVXvRsHxz-1" vertex="1">
           <mxGeometry x="505" y="91" width="82" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="X-xBrTbUivX3O_vm4Tdt-16" value="git revert: keep the history and commit new HEAD , only one step&lt;br&gt;git reset: Move ref of HEAD&lt;br&gt;git checkout head: won&#39;t change unstaged or staged files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gjxDkcOSJeGZVXvRsHxz-1" vertex="1">
+        <mxCell id="X-xBrTbUivX3O_vm4Tdt-16" value="git revert: keep the history and commit new HEAD , only one step&lt;br&gt;git reset: Move ref of HEAD&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gjxDkcOSJeGZVXvRsHxz-1" vertex="1">
           <mxGeometry x="170" y="319" width="364" height="20" as="geometry" />
         </mxCell>
         <mxCell id="X-xBrTbUivX3O_vm4Tdt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;verticalAlign=top;" parent="gjxDkcOSJeGZVXvRsHxz-1" source="X-xBrTbUivX3O_vm4Tdt-20" target="X-xBrTbUivX3O_vm4Tdt-9" edge="1">
