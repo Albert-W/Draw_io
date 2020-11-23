@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T18:03:02.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36 Edg/87.0.664.41" etag="PtCL8HPJWzv2IsTMOBcR" version="13.10.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-23T20:15:23.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36 Edg/87.0.664.41" etag="QKfvtwgjPoRDdHhtiF2M" version="13.10.1" type="github" pages="2">
   <diagram id="TTg-IWiv8Uzk7xxOlv-l" name="Page-1">
     <mxGraphModel dx="1052" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,9 +28,6 @@
         <mxCell id="3_fk25gFCbwwTBrFntTD-11" value="restore --staged &amp;lt;f&amp;gt; (unstage)&lt;br&gt;reset &amp;lt;f&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-6" target="3_fk25gFCbwwTBrFntTD-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QmlgqqIAHQfQFDyx2e3k-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3_fk25gFCbwwTBrFntTD-6" target="QmlgqqIAHQfQFDyx2e3k-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-6" value="staged" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="192" width="82" height="49" as="geometry" />
         </mxCell>
@@ -53,6 +50,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="GDeIk7x6Eipk6lwQrsHh-1" value="push" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_fk25gFCbwwTBrFntTD-8" target="tbhNzLgqW9O9N-UflDI0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-8" value="HEAD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="511" y="192" width="82" height="49" as="geometry" />
         </mxCell>
@@ -71,10 +71,7 @@
         <mxCell id="froKh8hoZKa_n56Nmg6r-1" value="git revert: keep the history and commit new HEAD , only one step&lt;br&gt;git reset: Move ref of HEAD&lt;br&gt;&lt;br&gt;git checkout --patch B f : patch current f with f from head of B&lt;br&gt;git checkout dev: doesn&#39;t change the unstaged or staged" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="86" y="360" width="364" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QmlgqqIAHQfQFDyx2e3k-1" value="Old staged" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="349" y="91" width="82" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="tbhNzLgqW9O9N-UflDI0-2" value="git fetch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tbhNzLgqW9O9N-UflDI0-1" target="3_fk25gFCbwwTBrFntTD-8">
+        <mxCell id="tbhNzLgqW9O9N-UflDI0-2" value="fetch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tbhNzLgqW9O9N-UflDI0-1" target="3_fk25gFCbwwTBrFntTD-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tbhNzLgqW9O9N-UflDI0-3" value="git pull" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbhNzLgqW9O9N-UflDI0-1" target="3_fk25gFCbwwTBrFntTD-2">
@@ -86,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tbhNzLgqW9O9N-UflDI0-1" value="remote&lt;br&gt;git remote -v" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="769" y="186.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="771" y="186.5" width="119" height="56.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
