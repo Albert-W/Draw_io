@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T15:55:33.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="kWSLj-L6Vf4t_NCQeJku" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-01T15:59:05.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="eRnDpaz3CS7P0B9hFwi-" version="13.10.4" type="github">
   <diagram id="IDma_761hYsdMr6DxiUg" name="Page-1">
     <mxGraphModel dx="1452" dy="507" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,13 +89,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2gqgBX56awsmeUNYRUS-1" value="Restful API&lt;br&gt;(Springboot - RestController)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-138" y="128" width="664" height="50" as="geometry" />
+          <mxGeometry x="-138" y="129" width="664" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z2gqgBX56awsmeUNYRUS-2" value="Front-end (On client machine)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-138" y="30" width="662" height="82" as="geometry" />
         </mxCell>
         <mxCell id="Z2gqgBX56awsmeUNYRUS-3" value="HTML CSS Bootstrap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="228" y="60" width="235" height="35" as="geometry" />
+          <mxGeometry x="233" y="60" width="235" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Z2gqgBX56awsmeUNYRUS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="Z2gqgBX56awsmeUNYRUS-4" target="Z2gqgBX56awsmeUNYRUS-3">
           <mxGeometry relative="1" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2gqgBX56awsmeUNYRUS-4" value="JavaScript ( jQuery - Ajax)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="60" width="235" height="35" as="geometry" />
+          <mxGeometry x="-89" y="60" width="235" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
