@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-29T22:41:18.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="fgocd1oo1H5-xy4SYaL7" version="13.10.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-08T17:17:54.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="9oYbsGait33wCwyWAq1s" version="13.10.9" type="github" pages="2">
   <diagram id="TTg-IWiv8Uzk7xxOlv-l" name="Page-1">
-    <mxGraphModel dx="964" dy="886" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="829" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,38 +83,50 @@
         </mxCell>
         <mxCell id="bGLwm6MAsfE7qo8vmJwV-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3_fk25gFCbwwTBrFntTD-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="228" y="439" as="sourcePoint" />
+            <mxPoint x="228" y="398" as="sourcePoint" />
             <mxPoint x="265" y="367" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGLwm6MAsfE7qo8vmJwV-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3_fk25gFCbwwTBrFntTD-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="406" as="sourcePoint" />
             <mxPoint x="411" y="403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGLwm6MAsfE7qo8vmJwV-8" value="git diff" style="endArrow=none;html=1;fontSize=12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="229" y="387" as="sourcePoint" />
-            <mxPoint x="386" y="387" as="targetPoint" />
+            <mxPoint x="229" y="366" as="sourcePoint" />
+            <mxPoint x="386" y="366" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGLwm6MAsfE7qo8vmJwV-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="552" y="437" as="sourcePoint" />
+            <mxPoint x="552" y="400" as="sourcePoint" />
             <mxPoint x="552" y="244" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGLwm6MAsfE7qo8vmJwV-10" value="" style="endArrow=none;html=1;fontSize=12;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="392" y="354" as="sourcePoint" />
-            <mxPoint x="552" y="354" as="targetPoint" />
+            <mxPoint x="392" y="358" as="sourcePoint" />
+            <mxPoint x="552" y="358" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGLwm6MAsfE7qo8vmJwV-11" value="git diff --staged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="bGLwm6MAsfE7qo8vmJwV-10" vertex="1" connectable="0">
           <mxGeometry x="0.1194" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qwwcgAC2-qUsY1piBnp5-1" value="git diff HEAD" style="endArrow=none;html=1;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229" y="381" as="sourcePoint" />
+            <mxPoint x="549" y="381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwwcgAC2-qUsY1piBnp5-2" value="git log&lt;br&gt;git reflog&lt;br&gt;gitk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="99" width="59" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qwwcgAC2-qUsY1piBnp5-3" value="git config -l&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="379" width="133" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
