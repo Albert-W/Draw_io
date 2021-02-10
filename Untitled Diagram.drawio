@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T18:40:34.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" version="14.3.0" etag="RW4fyuhVMsavkTCofw_d" type="github"><diagram id="Mv6kmJkb6wF9CQ0TLChR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-10T18:56:04.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="EjGXDWxfyn3_jUIJGh1q" version="14.3.0" type="github">
+  <diagram id="Mv6kmJkb6wF9CQ0TLChR" name="Page-1">
+    <mxGraphModel dx="1452" dy="507" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nP_UXycicT72o9blLBmM-8" value="Bucket" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="129" width="145" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-9" value="- serialVersionUID: long&#xa;- name: String&#xa;- owner: Owner&#xa;- createDate: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-8">
+          <mxGeometry y="26" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-8">
+          <mxGeometry y="96" width="145" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-8">
+          <mxGeometry y="104" width="145" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-12" value="S3Object" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="266" y="129" width="215" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-13" value="- serialVersionUID: long&#xa;- key: String&#xa;- bucketName: String&#xa;- metadata: ObjectMetadata&#xa;- objectContent: S3ObjectINputStream&#xa;- redirectLocation: String&#xa;- taggingCount: Integer&#xa;- isRequesterCharged: boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-12">
+          <mxGeometry y="26" width="215" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-12">
+          <mxGeometry y="145" width="215" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-12">
+          <mxGeometry y="153" width="215" height="27" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
