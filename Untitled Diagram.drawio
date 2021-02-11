@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-11T09:43:04.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="EkpD0vlS7yeV3fu8Dg_g" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-11T10:10:13.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="r5na1mWybLYQ5GLO6hb4" version="14.3.0" type="github">
   <diagram id="Mv6kmJkb6wF9CQ0TLChR" name="Page-1">
     <mxGraphModel dx="1452" dy="507" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry y="104" width="145" height="27" as="geometry" />
         </mxCell>
         <mxCell id="nP_UXycicT72o9blLBmM-12" value="S3Object" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="145" y="129" width="215" height="180" as="geometry" />
+          <mxGeometry x="165" y="129" width="215" height="180" as="geometry" />
         </mxCell>
         <mxCell id="nP_UXycicT72o9blLBmM-13" value="- serialVersionUID: long&#xa;- key: String&#xa;- bucketName: String&#xa;- metadata: ObjectMetadata&#xa;- objectContent: S3ObjectINputStream&#xa;- redirectLocation: String&#xa;- taggingCount: Integer&#xa;- isRequesterCharged: boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-12">
           <mxGeometry y="26" width="215" height="119" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="153" width="215" height="27" as="geometry" />
         </mxCell>
         <mxCell id="nP_UXycicT72o9blLBmM-16" value="S3ObjectSummary" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="403" y="129" width="215" height="180" as="geometry" />
+          <mxGeometry x="429" y="129" width="215" height="180" as="geometry" />
         </mxCell>
         <mxCell id="nP_UXycicT72o9blLBmM-17" value="- bucketName: String&#xa;- key: String&#xa;- eTag: String&#xa;- size: long&#xa;- lastModified: Date&#xa;- storageClass: String&#xa;- owner: Owner&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-16">
           <mxGeometry y="26" width="215" height="119" as="geometry" />
@@ -51,6 +51,33 @@
         </mxCell>
         <mxCell id="nP_UXycicT72o9blLBmM-23" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-20">
           <mxGeometry y="87" width="145" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-24" value="ObjectMetadata" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="349" width="255" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-25" value="- userMetadata: Map&lt;Str, Str&gt;&#xa;- metadata: Map&lt;Str, Str&gt;&#xa;- AES_256_SERVER_SIDE_ENCRYPTION: static final String&#xa;- httpExpiresDate: Date&#xa;- expirationTime: Date&#xa;- expirationTimeRuleId: String&#xa;- ongoingRestore: Boolean&#xa;- restoreExpirationTime: Date&#xa;- bucketKeyEnabled: Boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-24">
+          <mxGeometry y="26" width="255" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-24">
+          <mxGeometry y="168" width="255" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-27" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-24">
+          <mxGeometry y="176" width="255" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-28" value="ObjectListing" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="408" y="349" width="257" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-29" value="- objectSummaries: List&lt;S3ObjectSummary&gt;&#xa;- commonPrefixes: List&lt;String&gt;&#xa;- bucketName: String&#xa;- nextMarker: String&#xa;- isTruncated: boolean&#xa;- prefix: String&#xa;- marker: String&#xa;- maxKeys: int&#xa;- delimiter: String&#xa;- encoding: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-28">
+          <mxGeometry y="26" width="257" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-28">
+          <mxGeometry y="176" width="257" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-31" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nP_UXycicT72o9blLBmM-28">
+          <mxGeometry y="184" width="257" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="nP_UXycicT72o9blLBmM-32" value="aws-java-sdk-s3-1.11.937" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="214" y="70" width="296" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
