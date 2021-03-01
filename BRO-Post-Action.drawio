@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T09:57:18.400Z" agent="5.0 (Windows)" etag="bAUgwuY-LGBJJThCc1Fm" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T10:36:44.242Z" agent="5.0 (Windows)" etag="42E-0rjTSJ2swekhZe-K" version="14.4.3" type="github" pages="2">
   <diagram id="Zn9thq2A35_GBZbb37ch" name="Page-1">
     <mxGraphModel dx="1438" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-uBS8yWjZrAhtoz5IRYW" name="Page-2">
-    <mxGraphModel dx="2148" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2388" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="C3laU1NXzG-Y4HvoAmFW-0" />
         <mxCell id="C3laU1NXzG-Y4HvoAmFW-1" parent="C3laU1NXzG-Y4HvoAmFW-0" />
@@ -189,10 +189,16 @@
         <mxCell id="EDEPv6k74kUYAO_By8vL-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C3laU1NXzG-Y4HvoAmFW-1" source="EDEPv6k74kUYAO_By8vL-38" target="EDEPv6k74kUYAO_By8vL-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EDEPv6k74kUYAO_By8vL-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C3laU1NXzG-Y4HvoAmFW-1" source="EDEPv6k74kUYAO_By8vL-38" target="EDEPv6k74kUYAO_By8vL-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EDEPv6k74kUYAO_By8vL-38" value="&lt;div&gt;BackupRepository&lt;/div&gt;&lt;div&gt;createBackup(BM, action, agents)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C3laU1NXzG-Y4HvoAmFW-1">
           <mxGeometry x="-557" y="817" width="282" height="53" as="geometry" />
         </mxCell>
         <mxCell id="EDEPv6k74kUYAO_By8vL-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C3laU1NXzG-Y4HvoAmFW-1" source="EDEPv6k74kUYAO_By8vL-40" target="EDEPv6k74kUYAO_By8vL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDEPv6k74kUYAO_By8vL-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="C3laU1NXzG-Y4HvoAmFW-1" source="EDEPv6k74kUYAO_By8vL-40" target="EDEPv6k74kUYAO_By8vL-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EDEPv6k74kUYAO_By8vL-40" value="&lt;div&gt;StorageMetadataFileService&lt;br&gt;&lt;/div&gt;&lt;div&gt;createStorageMetadataFile()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C3laU1NXzG-Y4HvoAmFW-1">
@@ -248,6 +254,15 @@
         </mxCell>
         <mxCell id="EDEPv6k74kUYAO_By8vL-60" value="/backup-managers/{bmID}/actions/{actionID}.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C3laU1NXzG-Y4HvoAmFW-1">
           <mxGeometry x="544" y="663.5" width="281.5" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="EDEPv6k74kUYAO_By8vL-62" value="&lt;div&gt;create brIntStorage.json&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C3laU1NXzG-Y4HvoAmFW-1">
+          <mxGeometry x="-195" y="950" width="282" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="EDEPv6k74kUYAO_By8vL-64" value="&lt;div&gt;backupFileService&lt;/div&gt;&lt;div&gt;writeToFile(backup)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C3laU1NXzG-Y4HvoAmFW-1">
+          <mxGeometry x="-193" y="817" width="282" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="EDEPv6k74kUYAO_By8vL-67" value="CMMediatorService.addBackup()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C3laU1NXzG-Y4HvoAmFW-1">
+          <mxGeometry x="-193" y="870" width="282" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
