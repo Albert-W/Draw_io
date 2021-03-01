@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T12:04:27.399Z" agent="5.0 (Windows)" etag="oBlbLWLdL3OZSxRaDS8l" version="14.4.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-01T14:45:53.136Z" agent="5.0 (Windows)" etag="3MwhObSvpmLkiQNRKV_2" version="14.4.3" type="github" pages="5">
   <diagram id="Zn9thq2A35_GBZbb37ch" name="Page-1">
     <mxGraphModel dx="1348" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -451,8 +451,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="UJOOpWwWc0yH9gOpLHxW" name="create_backup">
-    <mxGraphModel dx="948" dy="489" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="UJOOpWwWc0yH9gOpLHxW" name="create_backup_1">
+    <mxGraphModel dx="1038" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3Tikaccu_LZ6TGIIR3Lo-0" />
         <mxCell id="3Tikaccu_LZ6TGIIR3Lo-1" parent="3Tikaccu_LZ6TGIIR3Lo-0" />
@@ -747,19 +747,139 @@
             <mxPoint x="1491" y="633" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span&gt;BackupRepository&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span&gt;createBackup(BM, action, agents)&lt;/span&gt;&lt;/div&gt;" id="5VYmlHIp_ThEP_2yrCOS-59">
+        <UserObject label="&lt;div&gt;CMMediatorService.&lt;/div&gt;&lt;div&gt;addBackup(bu)&lt;br&gt;&lt;/div&gt;" id="5VYmlHIp_ThEP_2yrCOS-59">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3Tikaccu_LZ6TGIIR3Lo-1">
             <mxGeometry x="1735" y="673" width="164" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="5VYmlHIp_ThEP_2yrCOS-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" target="5VYmlHIp_ThEP_2yrCOS-61" source="5VYmlHIp_ThEP_2yrCOS-59" parent="3Tikaccu_LZ6TGIIR3Lo-1">
+        <mxCell id="5VYmlHIp_ThEP_2yrCOS-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" target="5VYmlHIp_ThEP_2yrCOS-63" source="5VYmlHIp_ThEP_2yrCOS-57" parent="3Tikaccu_LZ6TGIIR3Lo-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1695" y="633" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="backup-managers\DEFAULT\backups\myBackup4.json" id="5VYmlHIp_ThEP_2yrCOS-61">
+        <UserObject label="backup-managers\DEFAULT\backups\myBackup4.json" id="5VYmlHIp_ThEP_2yrCOS-63">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="3Tikaccu_LZ6TGIIR3Lo-1">
-            <mxGeometry x="1939" y="673" width="164" height="60" as="geometry" />
+            <mxGeometry x="1939" y="603" width="164" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v1VtnxIzP7MEODsemc0N" name="create_backup_2">
+    <mxGraphModel dx="1038" dy="147" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="ELpC6MtjAzYfuv7g4W5R-0" />
+        <mxCell id="ELpC6MtjAzYfuv7g4W5R-1" parent="ELpC6MtjAzYfuv7g4W5R-0" />
+        <mxCell id="C3fsTjDgPlqBNVUGp6H0-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="C3fsTjDgPlqBNVUGp6H0-4" target="C3fsTjDgPlqBNVUGp6H0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3fsTjDgPlqBNVUGp6H0-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="C3fsTjDgPlqBNVUGp6H0-4" target="C3fsTjDgPlqBNVUGp6H0-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="912" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C3fsTjDgPlqBNVUGp6H0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="C3fsTjDgPlqBNVUGp6H0-4" target="C3fsTjDgPlqBNVUGp6H0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3fsTjDgPlqBNVUGp6H0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="C3fsTjDgPlqBNVUGp6H0-4" target="C3fsTjDgPlqBNVUGp6H0-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="1137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;grpc.backup.&lt;/div&gt;&lt;div&gt;BackupDataSteam.&lt;/div&gt;&lt;div&gt;onNext()&lt;br&gt;&lt;/div&gt;" treeRoot="1" id="C3fsTjDgPlqBNVUGp6H0-4">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="185" y="780" width="155" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;backup.state&lt;br&gt;&lt;/div&gt;&lt;div&gt;BackupMetadataState.&lt;/div&gt;&lt;div&gt;processMessage()&lt;br&gt;&lt;/div&gt;" id="C3fsTjDgPlqBNVUGp6H0-5">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="462" y="774" width="155" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;backup.state&lt;/div&gt;&lt;div&gt;BackupMetaState.&lt;/div&gt;&lt;div&gt;validateMetadataMessage()&lt;br&gt;&lt;/div&gt;" id="C3fsTjDgPlqBNVUGp6H0-6">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="455" y="922" width="155" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="C3fsTjDgPlqBNVUGp6H0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="C3fsTjDgPlqBNVUGp6H0-8" target="C3fsTjDgPlqBNVUGp6H0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;backup.&lt;/div&gt;&lt;div&gt;BackupMetadataWriter&lt;/div&gt;&lt;div&gt;storeFrament()&lt;br&gt;&lt;/div&gt;" id="C3fsTjDgPlqBNVUGp6H0-8">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="453" y="1047" width="155" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="C3fsTjDgPlqBNVUGp6H0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="C3fsTjDgPlqBNVUGp6H0-10" target="C3fsTjDgPlqBNVUGp6H0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="new BackupFileDataState" id="C3fsTjDgPlqBNVUGp6H0-10">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="455" y="1148" width="155" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="backups\DEFAULT\myBackup6\bravo\bravo_1\Fragment.json" id="C3fsTjDgPlqBNVUGp6H0-11">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="648" y="1047" width="155" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;BackupFileDataState.&lt;/div&gt;&lt;div&gt;processMessage&lt;br&gt;&lt;/div&gt;" id="C3fsTjDgPlqBNVUGp6H0-12">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="650" y="1148" width="155" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;backup.state&lt;/div&gt;&lt;div&gt;BackupCustomMetadataState.&lt;/div&gt;&lt;div&gt;processMessage()&lt;br&gt;&lt;/div&gt;" id="snqYs24Nn4Z6Y1uhKJMe-0">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="667" y="780" width="184" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="snqYs24Nn4Z6Y1uhKJMe-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="snqYs24Nn4Z6Y1uhKJMe-0" target="snqYs24Nn4Z6Y1uhKJMe-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="587" y="810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;backup.state&lt;/div&gt;&lt;div&gt;BackupCustomMetadataState.&lt;/div&gt;&lt;div&gt;processMessage&lt;br&gt;&lt;/div&gt;" id="snqYs24Nn4Z6Y1uhKJMe-2">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="891" y="780" width="184" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="snqYs24Nn4Z6Y1uhKJMe-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="snqYs24Nn4Z6Y1uhKJMe-2" target="snqYs24Nn4Z6Y1uhKJMe-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="851" y="810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="new BackupFileWriter()" id="snqYs24Nn4Z6Y1uhKJMe-4">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="1115" y="780" width="184" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="snqYs24Nn4Z6Y1uhKJMe-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="snqYs24Nn4Z6Y1uhKJMe-2" target="snqYs24Nn4Z6Y1uhKJMe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="851" y="810" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1057" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;backup.&lt;br&gt;&lt;/div&gt;&lt;div&gt;BackupFileWriter.&lt;/div&gt;&lt;div&gt;addChunk()&lt;br&gt;&lt;/div&gt;" id="snqYs24Nn4Z6Y1uhKJMe-6">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="1115" y="875" width="184" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="snqYs24Nn4Z6Y1uhKJMe-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="ELpC6MtjAzYfuv7g4W5R-1" source="snqYs24Nn4Z6Y1uhKJMe-2" target="snqYs24Nn4Z6Y1uhKJMe-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="851" y="810" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="983" y="992" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;backup.&lt;br&gt;&lt;/div&gt;&lt;div&gt;BackupFileWriter.&lt;/div&gt;&lt;div&gt;build()&lt;br&gt;&lt;/div&gt;" id="snqYs24Nn4Z6Y1uhKJMe-8">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#;" vertex="1" parent="ELpC6MtjAzYfuv7g4W5R-1">
+            <mxGeometry x="1115" y="962" width="184" height="60" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
