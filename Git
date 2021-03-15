@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T11:41:33.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.57" etag="U60JiYGt_yd2O1SDwPJp" version="13.11.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-15T16:10:22.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.50" etag="6LNVEarfmClqYab9OHR-" version="14.4.4" type="github" pages="2">
   <diagram id="TTg-IWiv8Uzk7xxOlv-l" name="Page-1">
-    <mxGraphModel dx="1052" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1291" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="3_fk25gFCbwwTBrFntTD-9" value="commit -m" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3_fk25gFCbwwTBrFntTD-6" target="3_fk25gFCbwwTBrFntTD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3_fk25gFCbwwTBrFntTD-11" value="restore --staged &amp;lt;f&amp;gt; (unstage)&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;reset &amp;lt;f&amp;gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-6" target="3_fk25gFCbwwTBrFntTD-2" edge="1">
+        <mxCell id="3_fk25gFCbwwTBrFntTD-11" value="restore --staged &amp;lt;f&amp;gt; (unstage)&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;reset &amp;lt;f&amp;gt;&lt;br&gt;reset&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-6" target="3_fk25gFCbwwTBrFntTD-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3_fk25gFCbwwTBrFntTD-6" value="staged" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -43,8 +43,8 @@
         <mxCell id="tbhNzLgqW9O9N-UflDI0-4" value="checkout HEAD&lt;br&gt;merge HEAD&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;git reset HEAD^ (mixted)&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3_fk25gFCbwwTBrFntTD-8" target="3_fk25gFCbwwTBrFntTD-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="552" y="288" />
-              <mxPoint x="228" y="288" />
+              <mxPoint x="552" y="303" />
+              <mxPoint x="228" y="303" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -73,8 +73,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="799" y="243" />
-              <mxPoint x="799" y="327" />
-              <mxPoint x="228" y="327" />
+              <mxPoint x="799" y="339" />
+              <mxPoint x="228" y="339" />
             </Array>
           </mxGeometry>
         </mxCell>
