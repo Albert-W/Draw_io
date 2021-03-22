@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T20:29:00.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="Uu1QQ_-I9Y8eSOnowysz" version="14.4.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-22T20:31:46.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="sm39g4jhzAt0gU2Vu9-V" version="14.4.9" type="github" pages="4">
   <diagram id="l8VUODxzBlvGZUZWFrYo" name="to-creat-job">
     <mxGraphModel dx="1052" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
             <mxGeometry x="919" y="472" width="164" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;(Autowired)&lt;/div&gt;&lt;div&gt;QueueingJobExecutor()&lt;/div&gt;" id="B7JNwQyL8TTCR-ZByWgD-81">
+        <UserObject label="&lt;div&gt;(Autowired bean)&lt;/div&gt;&lt;div&gt;QueueingJobExecutor()&lt;/div&gt;" id="B7JNwQyL8TTCR-ZByWgD-81">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="W6bLSi71WPbcQiLS8aG8-1" vertex="1">
             <mxGeometry x="919" y="317" width="164" height="60" as="geometry" />
           </mxCell>
@@ -140,24 +140,24 @@
             <mxGeometry x="1123" y="463" width="164" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="B7JNwQyL8TTCR-ZByWgD-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="W6bLSi71WPbcQiLS8aG8-1" source="B7JNwQyL8TTCR-ZByWgD-84" target="B7JNwQyL8TTCR-ZByWgD-90" edge="1">
+        <mxCell id="B7JNwQyL8TTCR-ZByWgD-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="W6bLSi71WPbcQiLS8aG8-1" source="B7JNwQyL8TTCR-ZByWgD-88" target="B7JNwQyL8TTCR-ZByWgD-90" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1083" y="423" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;job.Job.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;runJob()&lt;/span&gt;&lt;/div&gt;" id="B7JNwQyL8TTCR-ZByWgD-90">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="W6bLSi71WPbcQiLS8aG8-1" vertex="1">
-            <mxGeometry x="1123" y="533" width="164" height="60" as="geometry" />
+            <mxGeometry x="1327" y="463" width="164" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="B7JNwQyL8TTCR-ZByWgD-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="W6bLSi71WPbcQiLS8aG8-1" source="B7JNwQyL8TTCR-ZByWgD-84" target="B7JNwQyL8TTCR-ZByWgD-92" edge="1">
+        <mxCell id="B7JNwQyL8TTCR-ZByWgD-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="W6bLSi71WPbcQiLS8aG8-1" target="B7JNwQyL8TTCR-ZByWgD-92" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1083" y="423" as="sourcePoint" />
+            <mxPoint x="1491" y="493" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;job.Job.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;triggerJob()&lt;/span&gt;&lt;/div&gt;" id="B7JNwQyL8TTCR-ZByWgD-92">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="W6bLSi71WPbcQiLS8aG8-1" vertex="1">
-            <mxGeometry x="1123" y="603" width="164" height="60" as="geometry" />
+            <mxGeometry x="1523" y="463" width="164" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="B7JNwQyL8TTCR-ZByWgD-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="W6bLSi71WPbcQiLS8aG8-1" source="B7JNwQyL8TTCR-ZByWgD-78" target="B7JNwQyL8TTCR-ZByWgD-94" edge="1" visible="0">
