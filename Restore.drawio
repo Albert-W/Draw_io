@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T11:02:40.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="_JVzb6o7MBdUJXNaVtFC" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T11:07:39.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="pCm4r0n706gsO43I7uYM" version="14.5.3" type="github" pages="2">
   <diagram id="lK9nZaVqMlM8sbXci29S" name="Page-1">
     <mxGraphModel dx="438" dy="652" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,6 +100,56 @@
             <mxGeometry x="1294" y="328" width="164" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R3RoUXutfNqbzqMdvnP6" name="Agent State Loop">
+    <mxGraphModel dx="1052" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-0" />
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-1" parent="YIyKynR0rkKEg_xDmPHq-0" />
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-4" value="register" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIyKynR0rkKEg_xDmPHq-1" source="YIyKynR0rkKEg_xDmPHq-2" target="YIyKynR0rkKEg_xDmPHq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-2" value="UnrecognizedState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YIyKynR0rkKEg_xDmPHq-1">
+          <mxGeometry x="91" y="237" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-6" value="restore" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIyKynR0rkKEg_xDmPHq-1" source="YIyKynR0rkKEg_xDmPHq-3" target="YIyKynR0rkKEg_xDmPHq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-3" value="RecognizedState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YIyKynR0rkKEg_xDmPHq-1">
+          <mxGeometry x="371" y="237" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIyKynR0rkKEg_xDmPHq-1" source="YIyKynR0rkKEg_xDmPHq-5" target="YIyKynR0rkKEg_xDmPHq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-5" value="PreparingRestoreState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YIyKynR0rkKEg_xDmPHq-1">
+          <mxGeometry x="590" y="237" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="YIyKynR0rkKEg_xDmPHq-1" source="YIyKynR0rkKEg_xDmPHq-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="889.2520751953125" y="230.92010498046875" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="982" y="267" />
+              <mxPoint x="982" y="195" />
+              <mxPoint x="889" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIyKynR0rkKEg_xDmPHq-1" source="YIyKynR0rkKEg_xDmPHq-7" target="YIyKynR0rkKEg_xDmPHq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-7" value="ExecutingRestoreState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YIyKynR0rkKEg_xDmPHq-1">
+          <mxGeometry x="816" y="237" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="YIyKynR0rkKEg_xDmPHq-1" source="YIyKynR0rkKEg_xDmPHq-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115.13427734375" y="232.5335693359375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YIyKynR0rkKEg_xDmPHq-10" value="PostActionRestoreState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YIyKynR0rkKEg_xDmPHq-1">
+          <mxGeometry x="1042" y="237" width="146" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
