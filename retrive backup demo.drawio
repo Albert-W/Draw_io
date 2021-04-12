@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T11:18:14.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="kAxmbCcJczRhm6zLCIrp" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-12T14:39:42.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="cAI1tsk2AxT2ab6b5DyD" version="14.5.8" type="github">
   <diagram id="Z8r0zwA_uI5whdRhrSZw" name="Page-1">
     <mxGraphModel dx="1052" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-1" value="OSMN&lt;br&gt;object 1&lt;br&gt;object 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="79" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="96" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-2" target="47u5bbeGEQ3Ve7As2GZ9-3">
           <mxGeometry relative="1" as="geometry" />
@@ -41,7 +41,7 @@
             <mxPoint x="510.8990478515625" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-12" value="AWS client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-12" value="AWS Simple client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="308" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-17" value="chunks" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-16">
@@ -57,6 +57,17 @@
         </mxCell>
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-19" value="Keep the same" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="689" y="124" width="191" height="331" as="geometry" />
+        </mxCell>
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.588134765625" y="222.8529052734375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-20" value="AWS multipart client" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-23" value="&lt;a href=&quot;https://github.com/aws/aws-sdk-java/issues/893&quot;&gt;S3 TransferManager Should Allow Downloading to Stream · Issue #893 · aws/aws-sdk-java (github.com)&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://alexwlchan.net/2019/09/streaming-large-s3-objects/&quot;&gt;Streaming large objects from S3 with ranged GET requests – alexwlchan&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="479" width="445" height="99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
