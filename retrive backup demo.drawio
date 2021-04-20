@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T12:11:16.569Z" agent="5.0 (Windows)" etag="EO8Ka90-dbikLRV6zXN3" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T13:57:04.858Z" agent="5.0 (Windows)" etag="-Kldi4TwoDMEt4jZ5E_9" version="14.5.7" type="github">
   <diagram id="Z8r0zwA_uI5whdRhrSZw" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-9" value="Agent&lt;br&gt;client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="732" y="345" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-15" value="Inputstream" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-12" target="47u5bbeGEQ3Ve7As2GZ9-16" edge="1">
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-15" value="Inputstream" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-12" target="47u5bbeGEQ3Ve7As2GZ9-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510.8990478515625" y="220" as="targetPoint" />
           </mxGeometry>
@@ -49,7 +49,7 @@
             <mxPoint x="730" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-16" value="&lt;div&gt;Agent-API 3.0.13&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ProcecssStreamChunks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-16" value="&lt;div&gt;Agent-API 3.0.13&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ProcecssStreamChunks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="523" y="190" width="134" height="60" as="geometry" />
         </mxCell>
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-18" value="Agent&lt;br&gt;client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -58,17 +58,17 @@
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-19" value="Keep the same" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="689" y="124" width="191" height="331" as="geometry" />
         </mxCell>
-        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-20" edge="1">
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#97D077;" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="449.588134765625" y="222.8529052734375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-20" edge="1">
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeColor=#97D077;" parent="1" source="47u5bbeGEQ3Ve7As2GZ9-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290.6637268066406" y="221.23947143554688" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-20" value="AWS multipart client" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="47u5bbeGEQ3Ve7As2GZ9-20" value="AWS multipart client" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="310" y="105" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="47u5bbeGEQ3Ve7As2GZ9-23" value="&lt;a href=&quot;https://github.com/aws/aws-sdk-java/issues/893&quot;&gt;S3 TransferManager Should Allow Downloading to Stream · Issue #893 · aws/aws-sdk-java (github.com)&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://alexwlchan.net/2019/09/streaming-large-s3-objects/&quot;&gt;Streaming large objects from S3 with ranged GET requests – alexwlchan&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
