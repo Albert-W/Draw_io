@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T10:38:55.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="QwOzM_2YuSMQd60s3To6" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T10:42:41.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="MBmjwoi365a2n8py1JnD" version="14.6.13" type="github">
   <diagram id="l7PFtfumoxPkuhnsnmIQ" name="Page-1">
     <mxGraphModel dx="1023" dy="440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,6 +53,21 @@
         </mxCell>
         <mxCell id="LxnaGPt1bvhv4ZgwgLPh-9" value="CERT/KEY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="641" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LxnaGPt1bvhv4ZgwgLPh-21" value="Redis client CA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="199" width="115" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LxnaGPt1bvhv4ZgwgLPh-22" value="SIPTLS root CA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="661" y="215" width="146" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LxnaGPt1bvhv4ZgwgLPh-23" value="Redis server cert/key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="375" width="134" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="LxnaGPt1bvhv4ZgwgLPh-24" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="583" y="251" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LxnaGPt1bvhv4ZgwgLPh-25" value="BRO redis client cert/key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621" y="358" width="146" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
