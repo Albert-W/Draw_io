@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T10:11:00.916Z" agent="5.0 (Windows)" etag="qAmAgDLNVkBV3TKC2N-M" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T10:18:38.014Z" agent="5.0 (Windows)" etag="uaTOU83dozkt_suYt5Hf" version="14.6.13" type="github">
   <diagram id="MYtHyyAWCHNzlXezhlRJ" name="Page-1">
     <mxGraphModel dx="1438" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -80,13 +80,13 @@
         <mxCell id="aZHeh1-H1kW6ti1Y_17A-13" value="Redis server cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-88" y="517" width="109" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aZHeh1-H1kW6ti1Y_17A-14" value="SIPLTS root key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-14" value="SIPTLS root key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="588" y="341" width="140" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="aZHeh1-H1kW6ti1Y_17A-15" value="SIPLTS root CA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-15" value="SIPTLS root CA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="592" y="430.5" width="140" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="aZHeh1-H1kW6ti1Y_17A-16" value="SIPLTS root cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-16" value="SIPTLS root cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="592" y="531" width="140" height="21" as="geometry" />
         </mxCell>
         <mxCell id="aZHeh1-H1kW6ti1Y_17A-25" value="&lt;div&gt;Key: is private key&lt;/div&gt;&lt;div&gt;both ca and cert contains public key and signature&lt;br&gt;&lt;/div&gt;&lt;div&gt;ca contains more information:&amp;nbsp; X509v3 extensions:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -97,8 +97,8 @@
             <mxPoint x="530" y="546" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aZHeh1-H1kW6ti1Y_17A-26" value="&lt;div&gt;csr&lt;/div&gt;CN=siplts-root-ca" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="739" y="398" width="80" height="80" as="geometry" />
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-26" value="&lt;div&gt;csr&lt;/div&gt;&lt;div&gt;CN=siptls-root&lt;/div&gt;&lt;div&gt;4&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="398" width="97" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
