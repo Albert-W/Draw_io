@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T09:44:49.975Z" agent="5.0 (Windows)" etag="C7KhxI26qv502nawsJEh" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T10:06:10.906Z" agent="5.0 (Windows)" etag="ab4e8G2rQEXdw1NZLdzC" version="14.6.13" type="github">
   <diagram id="MYtHyyAWCHNzlXezhlRJ" name="Page-1">
     <mxGraphModel dx="1438" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,6 +46,9 @@
         <mxCell id="aZHeh1-H1kW6ti1Y_17A-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZHeh1-H1kW6ti1Y_17A-8" target="aZHeh1-H1kW6ti1Y_17A-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZHeh1-H1kW6ti1Y_17A-8" target="aZHeh1-H1kW6ti1Y_17A-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aZHeh1-H1kW6ti1Y_17A-8" value="Key" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="462.5" y="321" width="66" height="61" as="geometry" />
         </mxCell>
@@ -88,6 +91,14 @@
         </mxCell>
         <mxCell id="aZHeh1-H1kW6ti1Y_17A-25" value="&lt;div&gt;Key: is private key&lt;/div&gt;&lt;div&gt;both ca and cert contains public key and signature&lt;br&gt;&lt;/div&gt;&lt;div&gt;ca contains more information:&amp;nbsp; X509v3 extensions:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="663" width="285" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="aZHeh1-H1kW6ti1Y_17A-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-26" value="&lt;div&gt;csr&lt;/div&gt;CN=BRO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="398" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
