@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T09:25:49.960Z" agent="5.0 (Windows)" etag="PiP7GiVLecPJ5zEprtWC" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T09:44:49.975Z" agent="5.0 (Windows)" etag="C7KhxI26qv502nawsJEh" version="14.6.13" type="github">
   <diagram id="MYtHyyAWCHNzlXezhlRJ" name="Page-1">
     <mxGraphModel dx="1438" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -85,6 +85,9 @@
         </mxCell>
         <mxCell id="aZHeh1-H1kW6ti1Y_17A-16" value="SIPLTS root cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="592" y="531" width="140" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="aZHeh1-H1kW6ti1Y_17A-25" value="&lt;div&gt;Key: is private key&lt;/div&gt;&lt;div&gt;both ca and cert contains public key and signature&lt;br&gt;&lt;/div&gt;&lt;div&gt;ca contains more information:&amp;nbsp; X509v3 extensions:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="663" width="285" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
