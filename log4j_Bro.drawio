@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T10:23:38.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" version="14.8.6" etag="ZoJzr8PVUaAGu67t4e1z" type="github"><diagram id="cvUKHo-pMs8p2N44pHE1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-24T10:29:53.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="HPpNQItDvH70C_eJQ1k0" version="14.8.6" type="github">
+  <diagram id="cvUKHo-pMs8p2N44pHE1" name="Page-1">
+    <mxGraphModel dx="1235" dy="551" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sotvExZWblIh62vUfUVS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sotvExZWblIh62vUfUVS-1" target="sotvExZWblIh62vUfUVS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sotvExZWblIh62vUfUVS-1" value="ConfigMap&lt;br&gt;name:&amp;nbsp;{{ template &quot;eric-ctrl-bro.name&quot; . }}-logging&lt;br&gt;data:{{ .Values.bro.logging.log4j2File }}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="97" width="289" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sotvExZWblIh62vUfUVS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sotvExZWblIh62vUfUVS-2" target="sotvExZWblIh62vUfUVS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sotvExZWblIh62vUfUVS-2" value="_helper.tpl&lt;br&gt;name:&amp;nbsp;{{ template &quot;eric-ctrl-bro.name&quot; . }}-logging&lt;br&gt;mountPath:&quot;{{ .Values.bro.logging.logDirectory }}&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="197" width="289" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sotvExZWblIh62vUfUVS-4" value="serviceproperties-configmap&lt;br&gt;logging.config =&amp;nbsp;{{ .Values.bro.logging.logDirectory }}/{{ .Values.bro.logging.log4j2File }}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="294" width="289" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
