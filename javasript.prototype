@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T18:12:38.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Eh36zIEjDX475Sy3c8o9" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T18:20:06.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kN5OeZdpc699qmCBKdJs" version="20.4.0" type="github">
   <diagram id="plVgVElDd1QzF1sM2ODw" name="第 1 页">
     <mxGraphModel dx="1234" dy="713" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1m5oVqL_1NVDr0ignfZN-2" value="s1 = new Student(&#39;a&#39;)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="36" y="313" width="120" height="80" as="geometry" />
+          <mxGeometry x="31" y="275" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1m5oVqL_1NVDr0ignfZN-8" value=".constructor" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1m5oVqL_1NVDr0ignfZN-4" target="1m5oVqL_1NVDr0ignfZN-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="1m5oVqL_1NVDr0ignfZN-10" value=".__proto__" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1m5oVqL_1NVDr0ignfZN-4" target="1m5oVqL_1NVDr0ignfZN-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1m5oVqL_1NVDr0ignfZN-4" value="Student_proto&lt;br&gt;object" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="1m5oVqL_1NVDr0ignfZN-4" value="Student_proto&lt;br&gt;独一的object" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="231" y="404" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1m5oVqL_1NVDr0ignfZN-13" value=".constructor" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1m5oVqL_1NVDr0ignfZN-9" target="1m5oVqL_1NVDr0ignfZN-11" edge="1">
@@ -37,7 +37,7 @@
         <mxCell id="1m5oVqL_1NVDr0ignfZN-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1m5oVqL_1NVDr0ignfZN-9" target="1m5oVqL_1NVDr0ignfZN-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1m5oVqL_1NVDr0ignfZN-9" value="Object_proto&lt;br&gt;object" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="1m5oVqL_1NVDr0ignfZN-9" value="Object_proto&lt;br&gt;独一的object" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="431" y="404" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1m5oVqL_1NVDr0ignfZN-14" value=".prototype" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1m5oVqL_1NVDr0ignfZN-11" target="1m5oVqL_1NVDr0ignfZN-9" edge="1">
@@ -49,14 +49,14 @@
         <mxCell id="1m5oVqL_1NVDr0ignfZN-11" value="Object" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="431" y="215" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1m5oVqL_1NVDr0ignfZN-15" value="null" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="1m5oVqL_1NVDr0ignfZN-15" value="null&lt;br&gt;object" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="631" y="404" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1m5oVqL_1NVDr0ignfZN-19" value=".__proto__" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1m5oVqL_1NVDr0ignfZN-17" target="1m5oVqL_1NVDr0ignfZN-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1m5oVqL_1NVDr0ignfZN-17" value="s2 = new Student(&#39;b&#39;)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="36" y="473" width="120" height="80" as="geometry" />
+          <mxGeometry x="31" y="464" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wjdYAXKw_msOLr0Q6APQ-6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wjdYAXKw_msOLr0Q6APQ-4" target="wjdYAXKw_msOLr0Q6APQ-5">
           <mxGeometry relative="1" as="geometry" />
