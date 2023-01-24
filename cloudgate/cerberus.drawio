@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T13:54:46.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BdYurhIuVwZ6xBeTd2rt" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T14:14:16.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ndtBBmNoHDNSa6cMV0YM" version="20.8.5" type="github">
   <diagram id="Xc8Yjj6azaGJ4WsaZWN7" name="Page-1">
     <mxGraphModel dx="2074" dy="1076" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u_0x5CJw9Vy52XKVag-j-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DGbzUcABZT3o_mQJXWC4-1" target="DGbzUcABZT3o_mQJXWC4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DGbzUcABZT3o_mQJXWC4-1" value="cassandra:9042" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="152" y="552" width="120" height="60" as="geometry" />
+          <mxGeometry x="156" y="546" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DGbzUcABZT3o_mQJXWC4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DGbzUcABZT3o_mQJXWC4-2" target="DGbzUcABZT3o_mQJXWC4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -16,8 +19,11 @@
         <mxCell id="DGbzUcABZT3o_mQJXWC4-4" value="localstack:4566-4584" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="552" y="546" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="u_0x5CJw9Vy52XKVag-j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGbzUcABZT3o_mQJXWC4-6" target="DGbzUcABZT3o_mQJXWC4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DGbzUcABZT3o_mQJXWC4-6" value="kong:8000-8001" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="352" y="544" width="120" height="60" as="geometry" />
+          <mxGeometry x="352" y="546" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DGbzUcABZT3o_mQJXWC4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DGbzUcABZT3o_mQJXWC4-8" target="DGbzUcABZT3o_mQJXWC4-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -34,8 +40,14 @@
         <mxCell id="DGbzUcABZT3o_mQJXWC4-12" value="notification:3004" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="598" y="266" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="u_0x5CJw9Vy52XKVag-j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_0x5CJw9Vy52XKVag-j-1" target="DGbzUcABZT3o_mQJXWC4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u_0x5CJw9Vy52XKVag-j-1" value="cassandra:9042" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="152" y="406" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_0x5CJw9Vy52XKVag-j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_0x5CJw9Vy52XKVag-j-2" target="DGbzUcABZT3o_mQJXWC4-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_0x5CJw9Vy52XKVag-j-2" value="cassandra:9042" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="152" y="266" width="120" height="60" as="geometry" />
