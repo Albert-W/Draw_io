@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-08-21T17:11:53.371Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="2KUKj8091x-BGcVBL70Y" version="21.6.8" type="github">
+  <diagram name="Page-1" id="lxtUeGvvyqDjrNIfBOAs">
+    <mxGraphModel dx="1242" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-1" value="Cassandra Cluster&lt;br&gt;&lt;div&gt;Cluster: cerberus-dev-e763ee4b&lt;/div&gt;&lt;div&gt;Partitioner: Murmur3Partitioner&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="110" width="630" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-2" value="Datacenter: us-east" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="150" y="190" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-3" value="Datacenter: us-west-2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="450" y="190" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-4" value="Rack 1a" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="160" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-5" value="Rack 1b" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="280" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-6" value="Rack 1c" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="160" y="370" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-7" value="Rack 1d" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="280" y="370" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-9" value="Rack 2a" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="470" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-10" value="Rack 2b" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="590" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-11" value="Rack 2c" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="470" y="370" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-12" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="175" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-13" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-14" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="175" y="405" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-15" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="405" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-16" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="500" y="285" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-17" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="620" y="285" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-21" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="480" y="410" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-22" value="Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="530" y="410" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kPjlDyBXZTa3vMs1A5Gc-23" value="In a multi-data center cluster, the replication is per data center." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="263" y="570" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
