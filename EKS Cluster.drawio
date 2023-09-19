@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T10:51:03.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="skRPvyLTWNEGrpbmpd2Y" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-19T13:23:52.475Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="i3LFh5PAiA2u60Fbt5aA" version="21.7.5" type="github" pages="3">
   <diagram name="Page-1" id="stjTFsO357A2wULYCFwq">
     <mxGraphModel dx="2588" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,6 +112,76 @@
         </mxCell>
         <mxCell id="BtglXz6T4sP83TbbzJHa-19" value="option2: Update it during the runtime (whenever we create a vault)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BtglXz6T4sP83TbbzJHa-1">
           <mxGeometry x="-712" y="342" width="228" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Copy of Page-1" id="tjGr0Jw3-EVHIfA5qlFp">
+    <mxGraphModel dx="2588" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-0" />
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-1" parent="EVp_9Dr-tMUhWuTEo7Oh-0" />
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-2" value="EKS Cluser (per Region in SP)" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-372" y="131" width="696" height="696" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-3" value="Namespace: cerberus-system" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-323" y="194" width="260" height="486" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-4" value="Namespace: cerberus-vaults" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="17" y="194" width="260" height="486" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-5" value="option 1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1" source="EVp_9Dr-tMUhWuTEo7Oh-6" target="EVp_9Dr-tMUhWuTEo7Oh-11">
+          <mxGeometry x="0.0141" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-6" value="daemonset: fluentd-daemon&lt;br&gt;3 pods" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-293" y="240" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-7" value="deployment: vault-operator&lt;br&gt;1 pods" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-293" y="327" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-8" value="deployment: k8s-agent&lt;br&gt;3 pods" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-291" y="414" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-9" value="deployment: nginx-controller&lt;br&gt;3 pods" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-291" y="501" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-10" value="deployment: telegraf-operator&lt;br&gt;3 pods" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-289" y="588" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-11" value="Vault 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="47" y="245" width="212" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-12" value="Vault 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="47" y="514" width="207" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-13" value="Vault 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="45" y="597" width="209" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-14" value="statefulset: cer-vault-ID&lt;br&gt;3 pods" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="64" y="289" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-15" value="deployment: cer-vault-ID-configurer&lt;br&gt;1 pods" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="61" y="383" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1" source="EVp_9Dr-tMUhWuTEo7Oh-17" target="EVp_9Dr-tMUhWuTEo7Oh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-17" value="configmap: fluentd-config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-628" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1" source="EVp_9Dr-tMUhWuTEo7Oh-19" target="EVp_9Dr-tMUhWuTEo7Oh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp_9Dr-tMUhWuTEo7Oh-19" value="option2: Update it during the runtime (whenever we create a vault)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="-712" y="342" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26JLH8J98pIkW8OrYYo0-1" value="option3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1" source="26JLH8J98pIkW8OrYYo0-0" target="EVp_9Dr-tMUhWuTEo7Oh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26JLH8J98pIkW8OrYYo0-0" value="Docker image:&amp;nbsp;fluent/fluentd-kubernetes-daemonset:v1.16.2-debian-cloudwatch-1.0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EVp_9Dr-tMUhWuTEo7Oh-1">
+          <mxGeometry x="374" y="289" width="262" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
