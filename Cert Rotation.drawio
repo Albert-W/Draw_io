@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T07:54:17.643Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" version="21.8.0" etag="Q3cVcVANQMHNINShupOM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T08:04:01.700Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="d5fq-gO0nRazSuDjK8Jx" version="21.8.0" type="github">
   <diagram name="Page-1" id="4F1nNo5wBWLaDQF_T7YV">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SZmE5vHMaUODlQmykEvX-1" value="us-east-1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="146" y="192" width="205" height="471" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-2" value="us-west-1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="431" y="192" width="205" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-4" value="1. ECS cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-5" value="2. ECS cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="473.5" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-6" value="3. Cassandra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="473.5" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-7" value="4. Cassandra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-8" value="5. Vault" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-9" value="6. ECS cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="491" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZmE5vHMaUODlQmykEvX-11" value="7. Wavefront Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="573" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
