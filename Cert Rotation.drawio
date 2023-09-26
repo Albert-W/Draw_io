@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T21:30:58.152Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="yb_1BfRRQgGpvcR9a718" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T21:40:42.111Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="V4I6QHTNNNcH2AEbrRgG" version="21.8.0" type="github">
   <diagram name="Page-1" id="4F1nNo5wBWLaDQF_T7YV">
     <mxGraphModel dx="2874" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="TSS3wnucde3f_7JiE3DJ-1" value="&lt;h1&gt;P1: us-east-1-certificate-rotation&lt;/h1&gt;&lt;p&gt;1. Get Expring CAs&lt;/p&gt;&lt;p&gt;2. Refresh CAs&lt;/p&gt;&lt;p&gt;* Delete /v1/pki-cassandra-member/root&lt;/p&gt;&lt;p&gt;* run vault-config&lt;/p&gt;&lt;p&gt;* Download the pki-cassandra/ca/pem&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-532" y="156.5" width="594" height="190.5" as="geometry" />
         </mxCell>
-        <mxCell id="TSS3wnucde3f_7JiE3DJ-2" value="&lt;h1&gt;1 ECS rotation&lt;/h1&gt;&lt;p&gt;Control_plane/container_runtime/user-dat.sh:&amp;nbsp;&lt;/p&gt;&lt;p&gt;* Download all the CA from command&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TSS3wnucde3f_7JiE3DJ-2" value="&lt;h1&gt;1 ECS rotation&lt;/h1&gt;&lt;p&gt;Control_plane/container_runtime/user-dat.sh:&amp;nbsp;&lt;/p&gt;&lt;p&gt;* Download all the CA from command&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-532" y="388" width="591" height="271" as="geometry" />
         </mxCell>
       </root>
