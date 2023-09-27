@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T21:40:42.111Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="V4I6QHTNNNcH2AEbrRgG" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T18:48:32.622Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="95_isnVj_WcLz687TXDu" version="21.8.2" type="github" pages="2">
   <diagram name="Page-1" id="4F1nNo5wBWLaDQF_T7YV">
-    <mxGraphModel dx="2874" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2517" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,10 +31,51 @@
         <mxCell id="SZmE5vHMaUODlQmykEvX-11" value="7. Wavefront Proxy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="193" y="573" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TSS3wnucde3f_7JiE3DJ-1" value="&lt;h1&gt;P1: us-east-1-certificate-rotation&lt;/h1&gt;&lt;p&gt;1. Get Expring CAs&lt;/p&gt;&lt;p&gt;2. Refresh CAs&lt;/p&gt;&lt;p&gt;* Delete /v1/pki-cassandra-member/root&lt;/p&gt;&lt;p&gt;* run vault-config&lt;/p&gt;&lt;p&gt;* Download the pki-cassandra/ca/pem&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TSS3wnucde3f_7JiE3DJ-1" value="&lt;h1&gt;P1: us-east-1-certificate-rotation&lt;/h1&gt;&lt;p&gt;1. Get Expring CAs&lt;/p&gt;&lt;p&gt;2. Refresh CAs&lt;/p&gt;&lt;p&gt;* Delete /v1/pki-cassandra-member/root&lt;/p&gt;&lt;p&gt;* run vault-config&lt;/p&gt;&lt;p&gt;* Download the pki-cassandra/ca/pem&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-532" y="156.5" width="594" height="190.5" as="geometry" />
         </mxCell>
-        <mxCell id="TSS3wnucde3f_7JiE3DJ-2" value="&lt;h1&gt;1 ECS rotation&lt;/h1&gt;&lt;p&gt;Control_plane/container_runtime/user-dat.sh:&amp;nbsp;&lt;/p&gt;&lt;p&gt;* Download all the CA from command&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TSS3wnucde3f_7JiE3DJ-2" value="&lt;h1&gt;1 ECS rotation&lt;/h1&gt;&lt;p&gt;Control_plane/container_runtime/user-dat.sh:&amp;nbsp;&lt;/p&gt;&lt;p&gt;* Download all the CA from command&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-532" y="388" width="591" height="271" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="JICpnm8P1RJLX_sapC-Y">
+    <mxGraphModel dx="2042" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-0" />
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-1" parent="cUMfK64LLrKTZ7TBckJA-0" />
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-2" value="us-west-2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="146" y="192" width="205" height="471" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-3" value="us-east-1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="431" y="192" width="205" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-4" value="1. ECS cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="193" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-5" value="2. ECS cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="473.5" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-6" value="3. Cassandra (to trust the new CA)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="473.5" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-7" value="4. Cassandra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="193" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-8" value="5. Vault" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="193" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-9" value="6. ECS cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="193" y="491" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-10" value="7. Wavefront Proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="193" y="573" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-11" value="&lt;h1&gt;P1: us-east-1-certificate-rotation&lt;/h1&gt;&lt;p&gt;1. Get Expring CAs&lt;/p&gt;&lt;p&gt;2. Refresh CAs&lt;/p&gt;&lt;p&gt;* Delete /v1/pki-cassandra-member/root&lt;/p&gt;&lt;p&gt;* run vault-config&lt;/p&gt;&lt;p&gt;* Download the pki-cassandra/ca/pem&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
+          <mxGeometry x="-532" y="156.5" width="594" height="190.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cUMfK64LLrKTZ7TBckJA-12" value="&lt;h1&gt;1 ECS rotation&lt;/h1&gt;&lt;p&gt;Control_plane/container_runtime/user-dat.sh:&amp;nbsp;&lt;/p&gt;&lt;p&gt;* Download all the CA from command&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="cUMfK64LLrKTZ7TBckJA-1">
           <mxGeometry x="-532" y="388" width="591" height="271" as="geometry" />
         </mxCell>
       </root>
