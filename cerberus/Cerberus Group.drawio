@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T10:44:58.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="hZMtrJXXr7hpLRzWhkaS" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T11:17:22.597Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="hozVvutVvk6fyRHfhcDT" version="22.1.3" type="github">
   <diagram name="Page-1" id="LYWbBOIyYOQkZ1xpHYuo">
     <mxGraphModel dx="885" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,67 @@
         </mxCell>
         <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-11" value="{&#xa;&quot;groups&quot;: [&#xa;    {&#xa;        &quot;app&quot; : &quot;859XhFAUuXdo-oNYfk8u6jBmZqiCIMDl&quot;,&#xa;        &quot;tenant&quot; : &quot;FRABLYoFV6Mcf1EJghrYDx3RIAPP4IX4&quot;,&#xa;        &quot;id&quot; : &quot;iNyM28giZd04eVC3bHdzQjvkGwJsPgKh&quot;,&#xa;        &quot;bound&quot; : &quot;cerberus::vault::id:c1127650-fc89-4c9b-a210-d8fc66b3146a&quot;,&#xa;        &quot;description&quot; : &quot;&quot;,&#xa;        &quot;name&quot; : &quot;test5&quot;&#xa;    }&#xa;]}" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="920" y="130" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qgQ8_5KD_v-0ZQwF2cv8-12" target="qgQ8_5KD_v-0ZQwF2cv8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-12" value="New Permission" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-16" value="Put" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qgQ8_5KD_v-0ZQwF2cv8-13" target="qgQ8_5KD_v-0ZQwF2cv8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-18" value="Post" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qgQ8_5KD_v-0ZQwF2cv8-13" target="qgQ8_5KD_v-0ZQwF2cv8-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-13" value="New Permission" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qgQ8_5KD_v-0ZQwF2cv8-15" target="qgQ8_5KD_v-0ZQwF2cv8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-15" value="deployments/{id}/groupmapping/{groupName}&lt;br&gt;Grant policies to a group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="560" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qgQ8_5KD_v-0ZQwF2cv8-17" target="qgQ8_5KD_v-0ZQwF2cv8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-17" value="deployments/{id}/acl" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-19" value="&lt;span style=&quot;color: rgb(223, 243, 255); font-family: menlo, monospace; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(40, 40, 40); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;{&quot;policies&quot;:[&quot;restricted-admin&quot;]}&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="620" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-20" value="&lt;span style=&quot;color: rgb(223, 243, 255); font-family: menlo, monospace; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(40, 40, 40); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;[{&quot;operation&quot;:&quot;vault::user&quot;,&lt;br&gt;&quot;principal&quot;:&quot;local::LoZ2rxoBdg5GuOnt6-vmtwTdaI2xo4Q1:test4@vmware.com&quot;,&lt;br&gt;&quot;resource&quot;:&quot;cerberus::vault::id:c1127650-fc89-4c9b-a210-d8fc66b3146a&quot;,&quot;deny&quot;:false}]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="800" width="385" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-21" value="hydro_auth/acl" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-24" value="{&#xa;&quot;acl&quot;: [&#xa;    {&#xa;        &quot;app&quot; : &quot;859XhFAUuXdo-oNYfk8u6jBmZqiCIMDl&quot;,&#xa;        &quot;tenant&quot; : &quot;FRABLYoFV6Mcf1EJghrYDx3RIAPP4IX4&quot;,&#xa;        &quot;principal&quot; : &quot;local::LoZ2rxoBdg5GuOnt6-vmtwTdaI2xo4Q1:test4@vmware.com&quot;,&#xa;        &quot;resource&quot; : &quot;cerberus::vault::id:c1127650-fc89-4c9b-a210-d8fc66b3146a&quot;,&#xa;        &quot;operation&quot; : &quot;vault::user&quot;,&#xa;        &quot;deny&quot; : false&#xa;    }&#xa;]}" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="800" width="490" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qgQ8_5KD_v-0ZQwF2cv8-25" target="qgQ8_5KD_v-0ZQwF2cv8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qgQ8_5KD_v-0ZQwF2cv8-25" target="qgQ8_5KD_v-0ZQwF2cv8-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-25" value="groupMappingService.grantPolicies(&lt;br&gt;vault,&lt;br&gt;policies,&lt;br&gt;groupName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="560" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-27" value="vaultGateway.createGroup(groupName-authPath, policies, type)&lt;br&gt;vaultGateway.createGroupAlias()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="510" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-29" value="storage.saveGroupMapping&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="620" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qgQ8_5KD_v-0ZQwF2cv8-31" value="&lt;div&gt;&amp;nbsp;tenant_id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | FRABLYoFV6Mcf1EJghrYDx3RIAPP4IX4&lt;/div&gt;&lt;div&gt;&amp;nbsp;vault_id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| c1127650-fc89-4c9b-a210-d8fc66b3146a&lt;/div&gt;&lt;div&gt;&amp;nbsp;group_name&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| local::LoZ2rxoBdg5GuOnt6-vmtwTdaI2xo4Q1:test4@vmware.com&lt;/div&gt;&lt;div&gt;&amp;nbsp;locked&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| False&lt;/div&gt;&lt;div&gt;&amp;nbsp;policies&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| {&#39;restricted-admin&#39;}&lt;/div&gt;&lt;div&gt;&amp;nbsp;vault_group_alias_id | null&lt;/div&gt;&lt;div&gt;&amp;nbsp;vault_group_id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| null&lt;/div&gt;&lt;div&gt;&amp;nbsp;vault_group_mappings | [&lt;/div&gt;&lt;div&gt;{&#39;auth_method_path&#39;: &#39;oidc&#39;, &#39;vault_group_alias_id&#39;: &#39;2d04dbe2-9d2f-7e52-96d8-&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1b1f12912acb&#39;, &#39;vault_group_id&#39;: &#39;dcf715ad-3c91-7294-2a8c-6fa30c91f85e&#39;}, {&#39;auth_method_path&#39;: &#39;jwt&#39;, &#39;vault_group_alias_id&#39;: &#39;99dad492-a180-281d-2131-&amp;nbsp; ce72052dc278&#39;, &#39;vault_group_id&#39;: &#39;806e83d5-4ffd-3371-c283-38f8b26da92d&#39;}]&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="600" width="480" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
