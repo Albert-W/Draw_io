@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T10:51:21.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.21" etag="D2OJiBKVcoRlQUNYeYcs" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T11:00:01.184Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="VyQSU7qum0FwiIulUwaH" version="22.1.21" type="github">
   <diagram name="Page-1" id="WXn_U4t8GTT3GDhQcTQC">
-    <mxGraphModel>
+    <mxGraphModel dx="832" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="336" y="140" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-2" value="EventBridge Scheduler&lt;br&gt;Create a event every 6 months" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="134" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7tVDtMnwGH0epAcS4dL-3" target="D7tVDtMnwGH0epAcS4dL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7tVDtMnwGH0epAcS4dL-3" target="D7tVDtMnwGH0epAcS4dL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340.5" y="300" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D7tVDtMnwGH0epAcS4dL-1" target="D7tVDtMnwGH0epAcS4dL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-5" value="Lambda: Rotation Invocation&lt;br&gt;* Create random seed&lt;br&gt;* trigger transit key rotation in each region" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="424" y="300" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="440" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="D7tVDtMnwGH0epAcS4dL-11" value="Tranisit Key Rotation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="130" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
