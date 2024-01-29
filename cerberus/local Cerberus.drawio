@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T11:17:01.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="22.1.21" etag="pPGbsyXnyDRdilXZnG9y" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T11:30:10.698Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="HBSBEp2yBSiLNyoLYegs" version="22.1.21" type="github">
   <diagram name="Page-1" id="tvGonhSXNFc2iGjc_Kjj">
-    <mxGraphModel>
+    <mxGraphModel dx="2077" dy="488" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="odmFAWkidFLlXLWtKsm--1" value="Docker" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="655" width="641" height="339" as="geometry" />
+        </mxCell>
+        <mxCell id="odmFAWkidFLlXLWtKsm--2" value="Cassandra:9042" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="856" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="odmFAWkidFLlXLWtKsm--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="odmFAWkidFLlXLWtKsm--3" target="odmFAWkidFLlXLWtKsm--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="odmFAWkidFLlXLWtKsm--3" value="Kong:&lt;br&gt;50000&lt;br&gt;8000,8001,8443" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="710.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="odmFAWkidFLlXLWtKsm--5" value="localstack:&lt;br&gt;4566-4584" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="856" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="odmFAWkidFLlXLWtKsm--9" value="Local Vault:8200" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="692" y="710.5" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
