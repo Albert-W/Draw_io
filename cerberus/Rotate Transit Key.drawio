@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T09:48:33.415Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="rihfN36EkCaWwPpIReiT" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-06T10:52:11.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qLyjqNMFMbKsnoY4MiTe" version="23.1.1" type="github" pages="2">
   <diagram name="Page-1" id="WXn_U4t8GTT3GDhQcTQC">
     <mxGraphModel dx="1753" dy="1126" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,14 +63,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3G11cevUt1-vu5SZpqy3-1" value="Workflow&amp;nbsp;&lt;br&gt;Trigger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="194" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3G11cevUt1-vu5SZpqy3-2" value="* create a &#39;schedule&#39;&lt;br&gt;*&amp;nbsp;0 0 1 */6 * (once every 6 month)&lt;br&gt;* trigger the rotation workflow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="485" y="196" width="350" height="56" as="geometry" />
-        </mxCell>
         <mxCell id="3G11cevUt1-vu5SZpqy3-3" value="Workflow&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="176" y="284" width="407" height="528" as="geometry" />
+          <mxGeometry x="176" y="164" width="407" height="418" as="geometry" />
         </mxCell>
         <mxCell id="3G11cevUt1-vu5SZpqy3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3G11cevUt1-vu5SZpqy3-4" target="3G11cevUt1-vu5SZpqy3-5">
           <mxGeometry relative="1" as="geometry" />
@@ -78,14 +72,53 @@
         <mxCell id="3G11cevUt1-vu5SZpqy3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G11cevUt1-vu5SZpqy3-4" target="3G11cevUt1-vu5SZpqy3-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3G11cevUt1-vu5SZpqy3-4" value="Generate Seed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3G11cevUt1-vu5SZpqy3-4" value="Generate Seed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="324" y="331" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3G11cevUt1-vu5SZpqy3-5" value="Call Deployment Service in us-east-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3G11cevUt1-vu5SZpqy3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3G11cevUt1-vu5SZpqy3-5" target="3G11cevUt1-vu5SZpqy3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-5" value="HTTP call&amp;nbsp; Deployment Service in us-east-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="204" y="489" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3G11cevUt1-vu5SZpqy3-6" value="Call Deployment Service in us-west-2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3G11cevUt1-vu5SZpqy3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3G11cevUt1-vu5SZpqy3-6" target="3G11cevUt1-vu5SZpqy3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-6" value="HTTP call Deployment Service in us-west-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="444" y="489" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-9" value="http POST /transitkey/rotation&amp;nbsp;&lt;br&gt;{&quot;seed&quot;: seed}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="623" y="486" width="206" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3G11cevUt1-vu5SZpqy3-10" target="3G11cevUt1-vu5SZpqy3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-10" value="Deployment service&lt;br&gt;in us-east-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="204" y="637" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3G11cevUt1-vu5SZpqy3-11" target="3G11cevUt1-vu5SZpqy3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-11" value="Deployment service&lt;br&gt;in us-west-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="444" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-14" value="Vault&lt;br&gt;in us-east-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="204" y="762" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-16" value="Vault&lt;br&gt;in us-west-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="444" y="762" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-18" value="Generate AES key&lt;br&gt;Wrap it into Cipher Text&lt;br&gt;Import it into the vault" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="608" y="637" width="181" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3G11cevUt1-vu5SZpqy3-1" target="3G11cevUt1-vu5SZpqy3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-1" value="Workflow&amp;nbsp;&lt;br&gt;Trigger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3G11cevUt1-vu5SZpqy3-2" value="* create a &#39;schedule&#39;&lt;br&gt;*&amp;nbsp;0 0 1 */6 * (once every 6 month)&lt;br&gt;* trigger the rotation workflow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="196" width="350" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
