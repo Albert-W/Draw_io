@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T13:25:52.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="SzMykSwpaZzDlIj179i3" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T13:35:04.623Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="RJQOTdb4v3iRbCyCjfmo" version="24.0.2" type="github">
   <diagram name="Page-1" id="U54eAjU8mrK-7jIGWU4N">
     <mxGraphModel dx="1953" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="8CZEWRUbMgtmiAW-HYdJ-12" value="Soil &amp;amp; Grass" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" parent="1" vertex="1">
           <mxGeometry x="240" y="670" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2LJFvwkql7OleQOMq5rc-1" value="Main Terrace House" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1710" width="255" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
