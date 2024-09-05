@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.5">
   <diagram name="Page-1" id="Im6yPSDnrnGQ6SYSzuOf">
-    <mxGraphModel dx="1718" dy="1126" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1126" dy="716" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,16 +40,16 @@
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-12" value="PPP, SBTV, SLIP&amp;nbsp; &amp;nbsp;Ethernet, Token Ring, FrameRelay, ATM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="322" y="431" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-13" value="ARP, IP, IGMP, ICMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-13" value="ARP, IP, IGMP, ICMP(ping)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="322" y="378" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-14" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="322" y="324" width="214" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-15" value="UDP &amp;lt;= 512 bytes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-15" value="UDP (&amp;lt;= 512 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="568" y="324" width="214" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-16" value="HTTP/HTTPS&lt;br&gt;FTP,SFTP&lt;br&gt;Telnet,SSH,RDP&lt;br&gt;SMTP/IMAP/POP3&lt;div&gt;LDAP,&lt;/div&gt;&lt;div&gt;SMB&lt;br&gt;BGP,&lt;br&gt;Mysql,&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-16" value="HTTP/HTTPS-80,8080&lt;br&gt;FTP,SFTP-21&lt;br&gt;Telnet-23,SSH-22,RDP&lt;br&gt;SMTP/IMAP/POP3&lt;div&gt;LDAP,&lt;/div&gt;&lt;div&gt;SMB&lt;br&gt;BGP,&lt;br&gt;Mysql-3306&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="322" y="157" width="168" height="146" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-17" value="RIP,&lt;br&gt;DHCP,&lt;div&gt;SNMP,&lt;br&gt;RTP,&lt;br&gt;TFTP,&amp;nbsp;&lt;br&gt;VoIP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
