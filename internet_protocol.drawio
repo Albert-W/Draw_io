@@ -5,58 +5,58 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-1" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113" y="205" width="120" height="30" as="geometry" />
+          <mxGeometry x="46" y="157" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-2" value="Presentation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113" y="262" width="120" height="30" as="geometry" />
+          <mxGeometry x="46" y="214" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-3" value="Session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113" y="318" width="120" height="30" as="geometry" />
+          <mxGeometry x="46" y="270" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-4" value="Transport" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113" y="372" width="120" height="30" as="geometry" />
+          <mxGeometry x="46" y="324" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-5" value="Network" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113" y="424" width="120" height="30" as="geometry" />
+          <mxGeometry x="46" y="376" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-6" value="Data-Link" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113" y="479" width="120" height="30" as="geometry" />
+          <mxGeometry x="46" y="431" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-7" value="Physical" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113" y="534" width="120" height="30" as="geometry" />
+          <mxGeometry x="46" y="486" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-8" value="Network Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="251" y="479" width="120" height="86" as="geometry" />
+          <mxGeometry x="184" y="431" width="120" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-9" value="Internet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="251" y="426" width="120" height="30" as="geometry" />
+          <mxGeometry x="184" y="378" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-10" value="Transport" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="251" y="372" width="120" height="30" as="geometry" />
+          <mxGeometry x="184" y="324" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-11" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="251" y="205" width="120" height="144" as="geometry" />
+          <mxGeometry x="184" y="157" width="120" height="144" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-12" value="PPP, SBTV, SLIP&amp;nbsp; &amp;nbsp;Ethernet, Token Ring, FrameRelay, ATM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="389" y="479" width="460" height="30" as="geometry" />
+          <mxGeometry x="322" y="431" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-13" value="ARP, IP, IGMP, ICMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="389" y="426" width="460" height="30" as="geometry" />
+          <mxGeometry x="322" y="378" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-14" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="389" y="372" width="214" height="30" as="geometry" />
+          <mxGeometry x="322" y="324" width="214" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-15" value="UDP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="635" y="372" width="214" height="30" as="geometry" />
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-15" value="UDP &amp;lt;= 512 bytes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568" y="324" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-16" value="HTTP/HTTPS&lt;br&gt;FTP,SFTP&lt;br&gt;Telnet,SSH,RDP&lt;br&gt;SMTP/IMAP/POP3&lt;div&gt;LDAP,&lt;/div&gt;&lt;div&gt;SMB&lt;br&gt;BGP,&lt;br&gt;Mysql,&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="389" y="205" width="168" height="146" as="geometry" />
+          <mxGeometry x="322" y="157" width="168" height="146" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-17" value="RIP,&lt;br&gt;DHCP,&lt;div&gt;SNMP,&lt;br&gt;RTP,&lt;br&gt;TFTP,&amp;nbsp;&lt;br&gt;VoIP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="677" y="205" width="168" height="146" as="geometry" />
+          <mxGeometry x="610" y="157" width="168" height="146" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-18" value="DNS,&lt;br&gt;NTP,&lt;br&gt;SIP.&lt;br&gt;QUIC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="564" y="205" width="106" height="146" as="geometry" />
+          <mxGeometry x="497" y="157" width="106" height="146" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
