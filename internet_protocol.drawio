@@ -37,10 +37,10 @@
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-11" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="184" y="157" width="120" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-12" value="PPP, SBTV, SLIP&amp;nbsp; &amp;nbsp;Ethernet, Token Ring, FrameRelay, ATM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-12" value="MAC(Media Access Control), Ethernet, ARP(Map Mac to IP)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="322" y="431" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-13" value="ARP, IP, IGMP, ICMP(ping)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-13" value="IP, IGMP(IP multicast), ICMP(ping)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="322" y="378" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-14" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-18" value="DNS,&lt;br&gt;NTP,&lt;br&gt;SIP.&lt;br&gt;QUIC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="497" y="157" width="106" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-19" value="NIC," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="487" width="460" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
