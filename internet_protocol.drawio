@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12">
   <diagram name="Page-1" id="Im6yPSDnrnGQ6SYSzuOf">
-    <mxGraphModel dx="1415" dy="1126" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1126" dy="720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="3uhhwZkQpgXi411WHi1k-1" value="QUIC (http/3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="562" y="313" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="zgrdoKvgs6zJI1ljX31A-1" value="host google.com -&amp;gt; IP" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="825" y="161" width="261" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
