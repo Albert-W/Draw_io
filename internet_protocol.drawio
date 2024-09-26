@@ -47,7 +47,7 @@
           <mxGeometry x="322" y="324" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-15" value="UDP (&amp;lt;= 512 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="562" y="342" width="214" height="27" as="geometry" />
+          <mxGeometry x="562" y="342" width="219" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-16" value="&lt;font color=&quot;#ff3333&quot;&gt;HTTP/HTTPS-80,8080&lt;br&gt;FTP,SFTP-21&lt;br&gt;Telnet-23,SSH-22&lt;/font&gt;,&lt;div&gt;RDP(remote desktop)-3389&lt;br&gt;SMTP/IMAP/POP3 (email)&lt;div&gt;LDAP-389,636&lt;/div&gt;&lt;div&gt;BGP(Border Gateway)-179,&lt;br&gt;Mysql-3306&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="322" y="157" width="168" height="146" as="geometry" />
