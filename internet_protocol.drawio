@@ -49,13 +49,13 @@
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-15" value="UDP (&amp;lt;= 512 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="562" y="342" width="214" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-16" value="HTTP/HTTPS-80,8080&lt;br&gt;FTP,SFTP-21&lt;br&gt;Telnet-23,SSH-22,RDP&lt;br&gt;SMTP/IMAP/POP3 (email)&lt;div&gt;LDAP,&lt;/div&gt;&lt;div&gt;SMB&lt;br&gt;BGP,&lt;br&gt;Mysql-3306&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-16" value="&lt;font color=&quot;#ff3333&quot;&gt;HTTP/HTTPS-80,8080&lt;br&gt;FTP,SFTP-21&lt;br&gt;Telnet-23,SSH-22&lt;/font&gt;,&lt;div&gt;RDP(remote desktop)-3389&lt;br&gt;SMTP/IMAP/POP3 (email)&lt;div&gt;LDAP-389,636&lt;/div&gt;&lt;div&gt;BGP(Border Gateway)-179,&lt;br&gt;Mysql-3306&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="322" y="157" width="168" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-17" value="RIP,&lt;br&gt;DHCP(host config),&lt;div&gt;SNMP,&lt;br&gt;RTP,&lt;br&gt;TFTP,&amp;nbsp;&lt;br&gt;VoIP&lt;/div&gt;&lt;div&gt;NTP-123, 1023(time)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-17" value="RIP(routing info)-520,&lt;div&gt;NTP(Network Time)-123&lt;/div&gt;&lt;div&gt;DHCP(host config)-67,68,&lt;div&gt;SNMP-161,162,&lt;br&gt;RTP(Real-Time)-16384,&lt;br&gt;TFTP(Trivial File)-69,&amp;nbsp;&lt;br&gt;VoIP(SIP + RTP)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="157" width="168" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-18" value="DNS,&lt;br&gt;NTP,&lt;br&gt;SIP.&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-18" value="&lt;font color=&quot;#ff3333&quot;&gt;DNS-53&lt;/font&gt;,&lt;br&gt;SIP(Session Initiation)&amp;nbsp;&lt;div&gt;- 5060, 5061&lt;br&gt;&lt;div&gt;SMB(Server Messge Block)-445,&lt;/div&gt;&lt;div&gt;137,138,139&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="497" y="157" width="106" height="146" as="geometry" />
         </mxCell>
         <mxCell id="Hi4Jr-rRUJaDXRJtTFlo-19" value="NIC," style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
